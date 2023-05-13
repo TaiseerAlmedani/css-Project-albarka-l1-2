@@ -1,0 +1,17 @@
+.navbar{
+    justify-content: space-between;
+  }
+  .navbar ul{
+    display: none;
+  }
+  .navbar .logo{
+    padding: 20px;
+  }
+  .hero-section img{
+    width: 350px;
+  }
+  .hero-content{
+    width: 100vw;
+    font-size: 32px;
+    padding: 20px;
+  }
