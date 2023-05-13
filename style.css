@@ -39,8 +39,43 @@ body{
   font-weight: 400;
   font-size: 20px;
 }
+.hero-section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #6384FF;
+  color: white;
+  padding: 150px 0;
+}
+.hero-section img{
+  width: 600px;
+}
+.hero-content{
+  font-size: 60px;
+  width: 30%;
+}
+.hero-animaited-text {
+  width: 20ch;
+  animation: typing 2s steps(20) alternate infinite, blink .5s step-end infinite alternate;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid;
+  font-family: monospace;
+}
 
 
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
 
 
 @media screen and (max-width:600px) {
@@ -51,6 +86,14 @@ body{
     display: none;
   }
   .navbar .logo{
+    padding: 20px;
+  }
+  .hero-section img{
+    width: 350px;
+  }
+  .hero-content{
+    width: 100vw;
+    font-size: 32px;
     padding: 20px;
   }
 }
