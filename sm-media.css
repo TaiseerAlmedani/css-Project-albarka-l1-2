@@ -22,3 +22,7 @@
   .about-section {
     flex-wrap: wrap-reverse;
   }
+  .case-study-grid-container{
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
