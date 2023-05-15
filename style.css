@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+body {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-.navbar{
-  font-family: 'Montserrat', sans-serif;
+.navbar {
+  font-family: "Montserrat", sans-serif;
   background-color: #344585;
   display: flex;
   justify-content: space-around;
@@ -18,7 +19,7 @@ body{
   width: 100%;
   color: white;
 }
-.logo img{
+.logo img {
   width: 33px;
   aspect-ratio: 1;
 }
@@ -29,38 +30,38 @@ body{
   align-items: center;
   gap: 20px;
 }
-.navbar ul{
+.navbar ul {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.navbar ul li{
+.navbar ul li {
   list-style-type: none;
   /* margin-right: 10px; */
 }
-.navbar ul a{
+.navbar ul a {
   color: white;
   text-decoration: none;
   font-weight: normal;
   font-size: 16px;
 }
-.hero-section{
+.hero-section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #6384FF;
+  background-color: #6384ff;
   color: white;
   padding: 150px 0;
 }
-.hero-section img{
+.hero-section img {
   width: 600px;
 }
-.hero-content{
+.hero-content {
   font-size: 40px;
   width: 30%;
 }
-.nav-btn{
+.nav-btn {
   padding: 10px 30px;
   background-color: transparent;
   border-color: white;
@@ -68,8 +69,29 @@ body{
   color: white;
   transition: all 500ms;
 }
-.nav-btn:hover{
+.nav-btn:hover {
   background-color: white;
-  color: #6384FF;
+  color: #6384ff;
   cursor: pointer;
+}
+.services-section h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+hr {
+  width: 10%;
+  height: 2px;
+  background: rgb(99, 132, 240);
+  background: linear-gradient(
+    90deg,
+    rgba(99, 132, 240, 1) 0%,
+    rgba(99, 132, 240, 1) 82%,
+    rgba(255, 255, 255, 1) 82%,
+    rgba(255, 255, 255, 1) 89%,
+    rgba(99, 132, 240, 1) 89%,
+    rgba(99, 132, 240, 1) 100%
+  );
+  margin: 0 auto;
+  border: none;
 }
