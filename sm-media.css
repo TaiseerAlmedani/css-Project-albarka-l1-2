@@ -7,11 +7,18 @@
   .navbar .logo{
     padding: 20px;
   }
-  .hero-section img{
+  .hero-section img , .about-section img{
     width: 350px;
+    margin-top: 50px;
   }
   .hero-content{
     width: 100vw;
     font-size: 32px;
     padding: 20px;
+  }
+  .services{
+    flex-wrap: wrap;
+  }
+  .about-section {
+    flex-wrap: wrap-reverse;
   }
