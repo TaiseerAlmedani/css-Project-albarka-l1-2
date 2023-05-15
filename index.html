@@ -31,11 +31,22 @@
   <header class="hero-section">
     <div class="hero-content">
       <p>We Are</p>
-      <div class="hero-animaited-text">the best in business</div>
+      <span class="hero-animaited-text"></span>
     </div>
     <img src="http://homework.webmyidea.com/assets/images/hero-img.png" alt="hero image">
   </header>
   <!-- End hero section -->
 
+
+
+  <!-- typed.js cdn -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('.hero-animaited-text', {
+    strings: ['Happy to see you', 'A great team','always on top'],
+    typeSpeed: 50,
+    loop:true,
+  });
+</script>
 </body>
 </html>
