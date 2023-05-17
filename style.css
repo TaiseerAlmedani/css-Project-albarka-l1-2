@@ -82,7 +82,8 @@ body {
 .case-study-section h1,
 .pricing-section h1,
 .pricing-section h1,
-.team-members-section h1 {
+.team-members-section h1,
+.testimonial-section h1 {
   text-align: center;
   font-size: 40px;
   padding: 30px 0;
@@ -95,7 +96,8 @@ body {
 .case-study-section h1::after,
 .pricing-section h1::after,
 .pricing-section h1::after,
-.team-members-section h1::after {
+.team-members-section h1::after,
+.testimonial-section h1::after {
   content: "";
   display: block;
   width: 15%;
@@ -328,7 +330,7 @@ border-radius: 50%;
   color: green;
   border-color: green;
 }
-
+/*? Team members */
 .team-members-section > p{
   text-align: center;
 }
@@ -348,6 +350,7 @@ border-radius: 50%;
 .member p{
   margin-bottom: 30px;
 }
+/*? companies section */
 .companies{
   max-width: 960px;
   margin: 100px auto;
@@ -367,4 +370,55 @@ border-radius: 50%;
   to{
     transform: translateX(200px);
   }
+}
+
+/*? testimonial section */
+
+.clouds{
+  max-width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.cloud{
+position: relative;
+}
+
+.top{
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50%;
+  z-index: -1;
+  text-align: center;
+}
+.top::before{
+  display: block;
+  content: '\f10d';
+  font-family: FontAwesome;
+  font-size: 40px;
+  line-height: 100px;
+  color: white;
+}
+.bottom{
+  height: 205px;
+  padding: 34px 40px 40px 40px;
+  border-radius: 120px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  line-height: 3;
+  color: white;
+}
+.cloud:nth-of-type(2) .top,.cloud:nth-of-type(2) .bottom {
+  background-color: blue;
+}
+.cloud:nth-of-type(3) .top,.cloud:nth-of-type(3) .bottom {
+  background-color: green;
 }

@@ -16,8 +16,12 @@
     font-size: 32px;
     padding: 20px;
   }
-  .services{
+  .services , .clouds{
     flex-wrap: wrap;
+  }
+  .cloud{
+    padding: 0 20px;
+    margin-top: 100px;
   }
   .about-section {
     flex-wrap: wrap-reverse;
