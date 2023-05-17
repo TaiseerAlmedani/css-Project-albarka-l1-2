@@ -1,38 +1,45 @@
-.navbar{
-    justify-content: space-between;
-  }
-  .navbar ul{
-    display: none;
-  }
-  .navbar .logo{
-    padding: 20px;
-  }
-  .hero-section img , .about-section img{
-    width: 350px;
-    margin-top: 50px;
-  }
-  .hero-content{
-    width: 100vw;
-    font-size: 32px;
-    padding: 20px;
-  }
-  .services , .clouds{
-    flex-wrap: wrap;
-  }
-  .cloud{
-    padding: 0 20px;
-    margin-top: 100px;
-  }
-  .about-section {
-    flex-wrap: wrap-reverse;
-  }
-  .case-study-grid-container{
-    grid-template-columns: 1fr;
-    padding: 20px;
-  }
-  .pricing-container,.team-member-grid-container{
-    grid-template-columns: 1fr;
-  }
-  .member{
-    padding: 0 20px;
-  }
+.navbar {
+  justify-content: space-between;
+}
+.navbar ul {
+  display: none;
+}
+.navbar .logo {
+  padding: 20px;
+}
+.hero-section img,
+.about-section img {
+  width: 350px;
+  margin-top: 50px;
+}
+.hero-content {
+  width: 100vw;
+  font-size: 32px;
+  padding: 20px;
+}
+.services,
+.clouds {
+  flex-wrap: wrap;
+}
+.cloud {
+  padding: 0 20px;
+  margin-top: 100px;
+}
+.about-section {
+  flex-wrap: wrap-reverse;
+}
+.case-study-grid-container {
+  grid-template-columns: 1fr;
+  padding: 20px;
+}
+.pricing-container,
+.team-member-grid-container {
+  grid-template-columns: 1fr;
+}
+.member {
+  padding: 0 20px;
+}
+
+form {
+  grid-template-areas: "name" "email" "phone" "website" "message" "qoute" "icons";
+}

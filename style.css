@@ -218,58 +218,58 @@ body {
   top: 30px;
 }
 /*? Pricing */
-.pricing-container{
+.pricing-container {
   max-width: 1200px;
   margin: 60px auto;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
-.pricing-card{
+.pricing-card {
   position: relative;
   padding: 20px;
 }
-.pricing-card:nth-of-type(1) .pricing-top{
+.pricing-card:nth-of-type(1) .pricing-top {
   background-color: orange;
 }
-.pricing-card:nth-of-type(2) .pricing-top{
+.pricing-card:nth-of-type(2) .pricing-top {
   background-color: blue;
 }
-.pricing-card:nth-of-type(3) .pricing-top{
+.pricing-card:nth-of-type(3) .pricing-top {
   background-color: green;
 }
-.pricing-top{
+.pricing-top {
   background-color: yellow;
   text-align: center;
   padding: 40px 0 60px;
 }
-.pricing-top::before{
-content: '';
-display: block;
-width: 300px;
-height: 200px;
-position: absolute;
-bottom: 32%;
-left: -1%;
-background-color: white;
-border-radius: 50%;
+.pricing-top::before {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  bottom: 32%;
+  left: -1%;
+  background-color: white;
+  border-radius: 50%;
 }
-.pricing-top::after{
-content: '';
-display: block;
-width: 300px;
-height: 200px;
-position: absolute;
-bottom: 45%;
-right: -21%;
-background-color: white;
-border-radius: 50%;
+.pricing-top::after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  bottom: 45%;
+  right: -21%;
+  background-color: white;
+  border-radius: 50%;
 }
-.price{
+.price {
   position: relative;
   z-index: 3;
   top: 30px;
-  box-shadow: 0 0 0 8px rgba(0,0,0,0.3);
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
   width: 40%;
   aspect-ratio: 1;
   display: flex;
@@ -280,24 +280,24 @@ border-radius: 50%;
   background-color: white;
   transition: all 500ms;
 }
-.pricing-card ul li{
+.pricing-card ul li {
   position: relative;
   z-index: 3;
   line-height: 2;
   font-size: 18px;
-} 
-.pricing-top h2{
+}
+.pricing-top h2 {
   color: white;
 }
-.pricing-card:nth-of-type(1):hover .price{
+.pricing-card:nth-of-type(1):hover .price {
   background-color: orange;
   color: white;
 }
-.pricing-card:nth-of-type(2):hover .price{
+.pricing-card:nth-of-type(2):hover .price {
   background-color: blue;
   color: white;
 }
-.pricing-card:nth-of-type(3):hover .price{
+.pricing-card:nth-of-type(3):hover .price {
   background-color: green;
   color: white;
 }
@@ -307,7 +307,7 @@ border-radius: 50%;
   margin-bottom: 40px;
   margin-top: 20px;
 }
-.pricing-card a{
+.pricing-card a {
   display: block;
   width: 50%;
   margin: 0 auto;
@@ -318,63 +318,63 @@ border-radius: 50%;
   padding: 10px 20px;
   transition: all 500ms;
 }
-.pricing-card:nth-of-type(2) a{
+.pricing-card:nth-of-type(2) a {
   color: blue;
   border-color: blue;
 }
-.pricing-card:nth-of-type(2) a:hover{
+.pricing-card:nth-of-type(2) a:hover {
   background-color: blue;
   color: white;
 }
-.pricing-card:nth-of-type(3) a{
+.pricing-card:nth-of-type(3) a {
   color: green;
   border-color: green;
 }
 /*? Team members */
-.team-members-section > p{
+.team-members-section > p {
   text-align: center;
 }
-.team-member-grid-container{
+.team-member-grid-container {
   max-width: 1200px;
   margin: 50px auto;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
-.member img{
+.member img {
   width: 100%;
 }
-.member:hover{
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .34);
+.member:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.34);
 }
-.member p{
+.member p {
   margin-bottom: 30px;
 }
 /*? companies section */
-.companies{
+.companies {
   max-width: 960px;
   margin: 100px auto;
   display: flex;
   overflow: hidden;
   height: 70px;
 }
-.company img{
+.company img {
   margin-right: 100px;
   height: 40px;
   animation: slider 5000ms ease-in-out infinite alternate;
 }
 @keyframes slider {
-  from{
+  from {
     transform: translateX(-200px);
   }
-  to{
+  to {
     transform: translateX(200px);
   }
 }
 
 /*? testimonial section */
 
-.clouds{
+.clouds {
   max-width: 1200px;
   margin: 100px auto;
   display: flex;
@@ -382,11 +382,11 @@ border-radius: 50%;
   justify-content: space-between;
 }
 
-.cloud{
-position: relative;
+.cloud {
+  position: relative;
 }
 
-.top{
+.top {
   width: 200px;
   height: 200px;
   background-color: orange;
@@ -398,15 +398,15 @@ position: relative;
   z-index: -1;
   text-align: center;
 }
-.top::before{
+.top::before {
   display: block;
-  content: '\f10d';
+  content: "\f10d";
   font-family: FontAwesome;
   font-size: 40px;
   line-height: 100px;
   color: white;
 }
-.bottom{
+.bottom {
   height: 205px;
   padding: 34px 40px 40px 40px;
   border-radius: 120px;
@@ -416,9 +416,60 @@ position: relative;
   line-height: 3;
   color: white;
 }
-.cloud:nth-of-type(2) .top,.cloud:nth-of-type(2) .bottom {
+.cloud:nth-of-type(2) .top,
+.cloud:nth-of-type(2) .bottom {
   background-color: blue;
 }
-.cloud:nth-of-type(3) .top,.cloud:nth-of-type(3) .bottom {
+.cloud:nth-of-type(3) .top,
+.cloud:nth-of-type(3) .bottom {
   background-color: green;
+}
+
+/*? contact */
+
+form {
+  max-width: 960px;
+  margin: 100px auto;
+  display: grid;
+  gap:20px 30px;
+  grid-template-areas: "name email" "phone website" "message message" "qoute qoute" "icons icons";
+}
+.name {
+  grid-area: name;
+}
+.email {
+  grid-area: email;
+}
+.website {
+  grid-area: website;
+}
+.phone {
+  grid-area: phone;
+}
+.textarea {
+  grid-area: message;
+  height: 100px;
+}
+.contact-btn {
+  grid-area: qoute;
+}
+.icons {
+  grid-area: icons;
+}
+form > *{
+  height: 40px;
+}
+input, textarea{
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  border-radius: 12px;
+}
+textarea{
+  padding: 20px;
+  resize: none;
+}
+::placeholder{
+  font-weight: 600;
 }
